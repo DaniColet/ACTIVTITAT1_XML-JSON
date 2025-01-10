@@ -21,7 +21,7 @@
         },
         {
           "nombre": "Pájaro Osado",
-          "descripcion": "El usuario embiste con valentía al objetivo, danyant-se també a si mateix.",
+          "descripcion": "El usuario embiste con valentía al objetivo, haciendose daño a si mismo.",
           "potencia": 120,
           "contacto": true
         }
@@ -50,7 +50,7 @@
         },
         {
           "nombre": "Pico Taladro",
-          "descripcion": "El usuario ataca al objetivo amb el seu bec com una broca.",
+          "descripcion": "El usuario ataca al objetivo con su pico como una broca.",
           "potencia": 80,
           "contacto": true
         }
