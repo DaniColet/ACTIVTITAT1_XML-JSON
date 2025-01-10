@@ -1,0 +1,62 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "nombre": "Zapdos",
+      "tipo": ["Eléctrico", "Volador"],
+      "peso": "52.6 kg",
+      "altura": "1.6 m",
+      "estadisticas": {
+        "velocidad": 100,
+        "fuerza": 90,
+        "precision": 85,
+        "resistencia": 90
+      },
+      "movimientos": [
+        {
+          "nombre": "Rayo",
+          "descripcion": "Un potente rayo eléctrico alcanza al objetivo.",
+          "potencia": 90,
+          "contacto": false
+        },
+        {
+          "nombre": "Pájaro Osado",
+          "descripcion": "El usuario embiste con valentía al objetivo, danyant-se també a si mateix.",
+          "potencia": 120,
+          "contacto": true
+        }
+      ],
+      "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/145.png",
+      "evoluciones": []
+    },
+    {
+      "id": 2,
+      "nombre": "Articuno",
+      "tipo": ["Hielo", "Volador"],
+      "peso": "55.4 kg",
+      "altura": "1.7 m",
+      "estadisticas": {
+        "velocidad": 85,
+        "fuerza": 85,
+        "precision": 95,
+        "resistencia": 100
+      },
+      "movimientos": [
+        {
+          "nombre": "Viento Hielo",
+          "descripcion": "El objetivo es azotado por un viento gélido que reduce la velocidad.",
+          "potencia": 55,
+          "contacto": false
+        },
+        {
+          "nombre": "Pico Taladro",
+          "descripcion": "El usuario ataca al objetivo amb el seu bec com una broca.",
+          "potencia": 80,
+          "contacto": true
+        }
+      ],
+      "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png",
+      "evoluciones": []
+    }
+  ]
+}

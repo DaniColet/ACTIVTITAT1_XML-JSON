@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Gestión de jets privados en una tienda online -->
+<tienda>
+    <productos>
+        <!-- Jet de lujo con asientos premium -->
+        <producto id="001" disponibilidad="en_estoc" pais="EEUU" fabricante="Gulfstream">
+            <nombre>Gulfstream G650</nombre>
+            <descripcion>Jet privado de largo alcance con capacidad para 18 pasajeros.</descripcion>
+            <precio moneda="USD">65000000</precio>
+            <categoria>Largo Alcance</categoria>
+            <imagen>https://assets.gulfstream.aero/thedotcom/images/aircraft/landing/carousel/d_g650ER_a_mkt_00372_v02.jpg</imagen>
+        </producto>
+        
+        <!-- Jet compacto para vuelos cortos -->
+        <producto id="002" disponibilidad="esgotat" pais="Francia" fabricante="Dassault">
+            <nombre>Dassault Falcon 7X</nombre>
+            <descripcion>Jet trirreactor con capacidad para 12 pasajeros y diseño elegante.</descripcion>
+            <precio moneda="EUR">52000000</precio>
+            <categoria>Trirreactor</categoria>
+            <imagen>https://eagleflight.co.nz/wp-content/uploads/2021/09/7X-1.jpg</imagen>
+        </producto>
+        
+        <!-- Jet mediano con excelente autonomía -->
+        <producto id="003" disponibilidad="en_estoc" pais="Canadá" fabricante="Bombardier">
+            <nombre>Bombardier Global 6000</nombre>
+            <descripcion>Jet de alcance medio con cabina espaciosa y autonomía extendida.</descripcion>
+            <precio moneda="CAD">45000000</precio>
+            <categoria>Mediano</categoria>
+            <imagen>https://www.airpartner.com/media/pusejp00/global-6000-exterior-1140x980.jpg</imagen>
+        </producto>
+        
+        <!-- Jet diseñado para vuelos corporativos -->
+        <producto id="004" disponibilidad="en_estoc" pais="Brasil" fabricante="Embraer">
+            <nombre>Embraer Praetor 600</nombre>
+            <descripcion>Jet ejecutivo de última generación con conectividad avanzada.</descripcion>
+            <precio moneda="BRL">21000000</precio>
+            <categoria>Ejecutivo</categoria>
+            <imagen>https://airgo.de/wp-content/uploads/2020/01/1-11-1024x681.jpg</imagen>
+        </producto>
+        
+        <!-- Jet ligero para uso personal -->
+        <producto id="005" disponibilidad="esgotat" pais="Austria" fabricante="Diamond Aircraft">
+            <nombre>Diamond DA62</nombre>
+            <descripcion>Jet privado ligero, eficiente y perfecto para uso personal.</descripcion>
+            <precio moneda="EUR">1200000</precio>
+            <categoria>Ligero</categoria>
+            <imagen>https://www.lifestyleaviation.com/web/image/1431-b0565a0c/da6220176191072.jpeg</imagen>
+        </producto>
+    </productos>
+</tienda>
